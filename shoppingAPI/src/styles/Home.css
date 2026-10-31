@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+input[type="search"] {
+    font-size: 20px;
+    border: none;
+    border-color: blue;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    width: auto;
+    cursor: pointer;
+}
+
+.searchContainer {
+    text-align: right;
+}
+
+input[type="search"]:focus {
+    border-color: #2563eb;
+}
+
+#title {
+    text-align: center;
+    font-size: 25px;
+    margin: 0.5rem;
+}
+
+.showItems {
+    padding: 5px 10px;
+    width: auto;
+    height: auto;
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.product-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+/* The Hovering Effect */
+.product-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+}
+
+/* The Product Image */
+.product-image {
+    width: auto;
+    object-fit: fill;
+}
+
+/* The Product Name */
+.product-title {
+    font-size: 15px;
+    margin: 10px 0 10px;
+}
+/* The product price */
+.product-price {
+    font-size: 20px;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+/* The Product Category */
+.product-category {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+img {
+    width: 10rem;
+    height: 11rem;
+    margin: 1rem;
+}
+
+#noItems {
+    text-align: center;
+}
+
+#favoritesBtn {
+    background-color: #2ebf38;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}

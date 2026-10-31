@@ -1,0 +1,33 @@
+:root {
+    --bg-color: #f5f5f5;
+    --text-color: #1a1a1a;
+    --toggle-color: #ccc;
+    --font-size: 15px;
+}
+
+:root.dark {
+    --bg-color: #121212;
+    --text-color: #f5f5f5;
+    --toggle-btn: #4a5568;
+    --toggle-thumb: hsl(61, 98%, 48%);
+    --font-size: 15px;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: sans-serif;
+    margin: 0;
+    font-size: var(--font-size);
+    padding: 2rem;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.toggleBtn {
+    font-size: 20px;
+    margin: 0.2rem;
+}
